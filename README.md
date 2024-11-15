@@ -34,24 +34,22 @@ This project focuses on analyzing DNS logs to identify and classify different lo
 ```bash
   cd dns-log-analysis
 ```
-3. Install the required dependencies:
-   -->bash
-4. Copy code
+3. Copy code
 ```bash
   pip install -r requirements.txt
 ```
-5. Usage
+4. Usage
 ```
 Place your DNS log file (log.csv) in the project directory.
 ```
-6. Run the analysis script:
+5. Run the analysis script:
 ```bash 
   python analyze_logs.py
 ```
 ## Visualizations
-**Confusion Matrices**: Highlight model accuracy for each class.
-**Feature Importance**: Visualizes the contribution of each feature.
-**Log Distributions**: Explores patterns and anomalies over time.
+1. **Confusion Matrices**: Highlight model accuracy for each class.
+2. **Feature Importance**: Visualizes the contribution of each feature.
+3. **Log Distributions**: Explores patterns and anomalies over time.
 ## Future Scope
 1. **Scalability**: Extend analysis to larger datasets for enterprise-scale networks.
 2. **Real-Time Analysis**: Implement a streaming pipeline for real-time anomaly detection.
