@@ -35,7 +35,7 @@ This project focuses on analyzing DNS logs to identify and classify different lo
   cd dns-log-analysis
 ```
 3. Install the required dependencies:
-# bash
+   -->bash
 4. Copy code
 ```bash
   pip install -r requirements.txt
